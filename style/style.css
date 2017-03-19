@@ -1,0 +1,112 @@
+body, html{
+	margin: 0;
+	padding: 0;
+}
+#header{
+	z-index: 1;
+	position: absolute;
+	width: 100%;
+	height: 900px;
+	/* background: linear-gradient(#cedede 0%, #9abcc5 100%);*/
+	background-image: url(../images/gradient.png); 	
+	background-size: 36px;
+}
+#header > #nav > ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	/*background-color: */
+	display: block;
+	width: 500px;
+	margin: 0 auto;
+}
+#header > #nav > ul > li{
+	float: left;
+	padding: 20px 30px 20px 30px;
+}
+#header > #nav > ul > li > a{
+	text-decoration: none;
+	font-family: "Oswald" , sans-serif;
+	font-size: 20px;
+	color: black;
+}
+#header > #nav > ul > li > a:hover{
+	color: white;
+}
+#header > .img {
+	z-index:-1;
+	right: 0;
+	height: 900px;
+	width: 900px;
+	background-image: url(../images/headerimage.png);
+	background-size: 900px;
+	position: absolute;
+
+}
+#nav{
+	text-align:center;
+}
+.title{
+	color: white;
+	position: absolute;
+	z-index: 1;
+	font-size: 90px;
+	font-family: "Ubuntu" , sans-serif;
+	margin-top: 300px;
+	text-align:center;
+	width: 100%;
+}
+
+#citata{
+	width: 100%;
+	height: 300px;
+	color: black;
+	line-height: 300px;
+	font-size: 40px;
+	font-family: "Oswald", sans-serif;
+	text-align:center;
+	padding-top: 900px;	
+}
+#innovation{
+	background-image: url(../images/innovation.jpg);
+	width: 100%;
+	height: 650px;
+	-webkit-background-size: 1600px;
+	background-size: 1600px;
+	background-position: center;
+}
+#whiteblock{
+	width: 100%;
+	height: 400px;
+}
+#whiteblock > p{
+	text-align: justify;
+	font-size: 40px;
+	font-family: "Oswald", sans-serif;	
+	margin: 0 auto;
+	padding-top: 40px;
+	width: 960px;
+}
+#idea{
+	width: 100%;
+	height: 600px;
+	background-image: url(../images/sell_innovation.png);
+	background-size: 1950px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#footer{
+	width: 100%;
+	height: 300px;
+	background-color:white;
+}
+#footer > ul{
+	list-style: none;
+	width: 960px;
+	margin: 0 auto;
+	padding-top: 40px;
+}
+#footer > ul >  li {
+	font-size: 30px;
+	font-family: "Oswald" , sans-serif;
+}

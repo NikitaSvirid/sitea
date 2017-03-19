@@ -1,0 +1,121 @@
+body , html{
+	margin: 0;
+	padding: 0;
+}
+#header{
+	background-image: url(../images/spacex.jpg);
+	width: 100%;
+	height: 900px;
+	background-size: 2000px;
+	background-position: center;
+}
+#header > ul{
+	width: 500px;
+	margin: 0 auto;
+	list-style: none;
+	display: block;
+	padding: 0;
+}
+#header > ul > li{
+	float: left;
+	padding: 20px 30px 20px 30px;
+}
+#header > ul > li > a{
+	text-decoration: none;
+	font-family: "Oswald" , sans-serif;
+	font-size: 20px;
+	color: white;
+}
+#header > #nav > li > a:hover{
+	color: black;
+}
+#title{
+	color: white;
+	font-size: 90px;
+	font-family: "Ubuntu" , sans-serif;
+	text-align:center;
+	padding-top: 300px;
+}
+#block{
+	height: 500px;
+	width: 100%;
+}
+#block > p{
+	text-align: justify;
+	font-size: 30px;
+	font-family: "Oswald", sans-serif;	
+	margin: 0 auto;
+	padding-top: 40px;
+	width: 960px;
+}
+#spacexlogo{
+	background-image: url(../images/maxresdefault.jpg);
+	width: 100%;
+	height: 400px;
+	background-size:1900px ; 
+	background-position: center;
+}
+#sliderblock{
+	width: 100%;
+	height:640px;	
+	text-align: justify;
+}
+#wrapper{
+	width: 960px;
+	height:600px;
+	margin: 0 auto;
+}
+#images{
+	text-align: center;	
+}
+#img{
+	margin-top: 40px;
+	width: 960px;
+	height: 500px;
+}
+#buttons{
+	text-align: center;
+}
+#back{
+	width: 200px;
+	height: 50px;	
+	font-family: "Oswald",sans-serif;
+	font-size: 20px;
+	color: white;
+	background-color: black;
+	border: 0px;
+	margin: 20px;
+}
+#forward{
+	font-size: 20px;
+	width: 200px;
+	height: 50px;
+	font-family: "Oswald",sans-serif;	
+	color: white;
+	background-color: black;
+	border: 0px;
+	margin: 20px;
+	
+}
+#downslider{
+	width: 100%;
+	height: 600px;
+	background-image: url(../images/start.jpg);
+	background-position: bottom;
+	background-size: 1900px;
+}
+#footer{
+	width: 100%;
+	height: 300px;
+	background-color:white;
+}
+#footer > ul{
+	list-style: none;
+	width: 960px;
+	margin: 0 auto;
+	padding-top: 40px;
+}
+#footer > ul >  li {
+	font-size: 30px;
+	font-family: "Oswald" , sans-serif;
+}
